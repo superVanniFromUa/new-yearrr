@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/03/26/christmas-1867048_1280.jpg");
+    height: 200px;
+}
+
+header h1 {
+text-align: center;
+color: azure;
+margin-bottom: 50px;
+}
+
+header nav {
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a {
+    display: inline;
+    text-align: center;
+    background-color:#630000;
+    color: #EEEBDD;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #630000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 10px;
+    margin: 10px;
+    width: 90px;
+}
+
+header a:hover {
+    background-color: #EEEBDD;
+    color: #630000;
+}
+
+main {
+    background-color: #810000;
+    }
+
+main p {
+    font-size: 25px;
+    color: rgb(8, 253, 0);
+}
+
+h2 {
+    text-align: center;
+    color: #e7f700;
+}
+
+main div {
+    display: inline-block;
+    width: 300px;
+    height: 220px;
+    background-color: #007d99;
+    border: 3px solid #FF6600;
+    border-radius: none;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
+
+ main table {
+    background-color: #EEEBDD;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    color: #161853;
+}
+
+td {
+    border: 2px solid indigo;
+}
+
+footer {
+background-image: url("https://www.colorsexplained.com/wp-content/uploads/2022/07/christmas-color-palette-1-720x720.jpg.webp")
+}
+
+footer table {
+    background-color: #557A46;
+    border: 3px solid #fdfdfd;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+td {
+    border: 2px solid #AF2655;
+}
+
+footer p {
+    font-size: 25px;
+    color: rgb(8, 253, 0);
+}
