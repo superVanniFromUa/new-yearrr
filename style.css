@@ -28,7 +28,9 @@ header nav {
 }
 
 header a {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color:#630000;
     color: #EEEBDD;
