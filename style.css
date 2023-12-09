@@ -40,6 +40,7 @@ header a:hover {
     color: #630000;
 }
 main {
+    margin: 0 auto;
     background-color: #810000;
     }
 main p {
@@ -60,8 +61,7 @@ main img {
     border-radius: none;
     height: 250px;
 }
- main table {
-     margin: 0 auto;
+ main table {     
     background-color: #EEEBDD;
     border: 3px solid indigo;
     border-radius: 10px;
